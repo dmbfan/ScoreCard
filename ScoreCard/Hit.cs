@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace ScoreCard
 {
-    public partial class American : Form
+    public partial class Hit : Form
     {
-        public American()
+        public Hit()
         {
             InitializeComponent();
         }
 
-        private void btnAmAwayOut4_Click(object sender, EventArgs e)
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
 
         }

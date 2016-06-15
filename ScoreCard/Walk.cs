@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace ScoreCard
 {
-    public partial class American : Form
+    public partial class Walk : Form
     {
-        public American()
+        public Walk()
         {
             InitializeComponent();
-        }
-
-        private void btnAmAwayOut4_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

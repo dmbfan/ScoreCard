@@ -56,23 +56,47 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Hit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hit.Designer.cs">
+      <DependentUpon>Hit.cs</DependentUpon>
+    </Compile>
     <Compile Include="National.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="National.Designer.cs">
       <DependentUpon>National.cs</DependentUpon>
     </Compile>
+    <Compile Include="OutOrSac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutOrSac.Designer.cs">
+      <DependentUpon>OutOrSac.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Score.cs" />
+    <Compile Include="Walk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Walk.Designer.cs">
+      <DependentUpon>Walk.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="American.resx">
       <DependentUpon>American.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Hit.resx">
+      <DependentUpon>Hit.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="National.resx">
       <DependentUpon>National.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutOrSac.resx">
+      <DependentUpon>OutOrSac.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -83,6 +107,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Walk.resx">
+      <DependentUpon>Walk.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
