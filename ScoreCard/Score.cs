@@ -8,5 +8,7 @@ namespace ScoreCard
 {
     class Score
     {
+
+
     }
 }

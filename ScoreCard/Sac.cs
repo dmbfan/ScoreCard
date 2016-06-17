@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace ScoreCard
 {
-    public partial class Hit : Form
+    public partial class Sac : Form
     {
-        public Hit()
+        public Sac()
         {
             InitializeComponent();
         }
-
-        private void radioButton4_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-
     }
 }
