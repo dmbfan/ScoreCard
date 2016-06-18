@@ -62,6 +62,7 @@
     <Compile Include="Hit.Designer.cs">
       <DependentUpon>Hit.cs</DependentUpon>
     </Compile>
+    <Compile Include="HitTotal.cs" />
     <Compile Include="National.cs">
       <SubType>Form</SubType>
     </Compile>
